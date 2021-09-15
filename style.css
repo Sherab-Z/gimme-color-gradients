@@ -7,20 +7,49 @@ body {
     margin: 0;
     padding: 0;
 } 
+
+.container-div {
+    position: absolute;
+    background: blue;
+}
  
-#wrapper {
+#page-wrapper-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 }
 
-#btn {
-    display:block;
+#top-content-div {
+    background: green;
+    top: 30%;
+}
+
+#button-div {
+    z-index: 1;
+    background: red;
     position: absolute;
-    margin: 50%;
+}
+
+#bottom-content-div {
+    background: yellow;
+    bottom: 20%;
+}
+
+#left-color-code-div {
+    border: solid 0.1rem grey;
+}
+
+#right-content-div {
+    border: solid 6px black;
+}
+
+.btn {
+    background: red;
+    display:block;
+    margin: auto;
 }

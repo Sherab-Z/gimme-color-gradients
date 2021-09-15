@@ -11,8 +11,8 @@ function generateRandomHSLColor () {
  
 function insertRandomBackgroundColorGradient () {
 
-    document.getElementById('wrapper').style.background = 'linear-gradient(70deg, ' + generateRandomHSLColor() + ', ' + generateRandomHSLColor() + ')'; 
+    document.getElementById('page-wrapper-div').style.background = 'linear-gradient(70deg, ' + generateRandomHSLColor() + ', ' + generateRandomHSLColor() + ')'; 
 }
 
-const btn = document.getElementById('btn');
-btn.addEventListener("click", insertRandomBackgroundColorGradient, false);
+const btn = document.getElementsByClassName('btn');
+btn[0].addEventListener("click", insertRandomBackgroundColorGradient, false);
