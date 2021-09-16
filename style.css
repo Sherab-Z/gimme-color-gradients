@@ -7,16 +7,30 @@ body {
     margin: 0;
     padding: 0;
 } 
-
-.container-div {
-    position: absolute;
-    background: blue;
-}
  
+.btn {
+    background: red;
+    display:block;
+    margin: auto;
+    height: 7vh;
+}
+
+.color-code-div {
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    justify-content: space-evenly;
+}
+
+.color-code-string {
+    
+}
+
 #page-wrapper-div {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position: fixed;
     top: 0;
     right: 0;
@@ -26,30 +40,27 @@ body {
 
 #top-content-div {
     background: green;
-    top: 30%;
 }
 
 #button-div {
     z-index: 1;
-    background: red;
-    position: absolute;
+    background: grey;
+
 }
 
 #bottom-content-div {
-    background: yellow;
-    bottom: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    justify-content: space-between;
 }
 
 #left-color-code-div {
-    border: solid 0.1rem grey;
+    border: solid 10px lightblue;
 }
 
-#right-content-div {
-    border: solid 6px black;
+#right-color-code-div {
+    border: solid 10px blueviolet;
 }
 
-.btn {
-    background: red;
-    display:block;
-    margin: auto;
-}
+
