@@ -12,7 +12,8 @@ body {
     background: red;
     display:block;
     margin: auto;
-    height: 7vh;
+    height: 2.5rem;
+    width: 4.045rem
 }
 
 .color-code-div {
